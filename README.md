@@ -27,14 +27,15 @@
 
 ```text
 mist-dossier/
-├── SKILL.md     # 完整技能说明与运行规范
-├── README.md    # 项目介绍与使用说明
-└── LICENSE      # MIT License
+├── SKILL.md       # 完整技能说明与运行规范
+├── README.md      # 项目介绍与使用说明
+├── CHANGELOG.md   # 版本记录
+└── LICENSE        # MIT License
 ```
 
 ### 使用方法
 
-本项目遵循开放的 Agent Skills 文件结构。将仓库根目录作为一个 Skill 文件夹使用，或把 `SKILL.md` 放入你所使用的 Agent 产品支持的 skills 目录中。不同产品的安装位置和加载方式可能不同，请以对应产品的文档为准。
+本项目遵循开放的 [Agent Skills 规范](https://agentskills.io/specification)。将仓库根目录作为一个 Skill 文件夹使用，或把 `SKILL.md` 放入你所使用的 Agent 产品支持的 skills 目录中。不同产品的安装位置和加载方式可能不同，请以对应产品的文档为准。
 
 默认会话控制暗号为：
 
